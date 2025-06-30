@@ -1,0 +1,10 @@
+body{
+	background: lightgoldenrodyellow;
+}
+
+p{
+	font-weight: bold;
+}
+canvas{
+	display: block;
+}
