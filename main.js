@@ -14,7 +14,7 @@ function classifyCanvas(){
 function gotResult(results){
   console.log(results);
   document.getElementById('name').innerHTML=results[0].label;
-  document.getElementById('name').innerHTML=(results[0].confidence*100).toFixed(2)+ "%";
+  document.getElementById('accuracy').innerHTML=(results[0].confidence*100).toFixed(2)+ "%";
 }
 
 function modelLoaded(){
